@@ -4,7 +4,7 @@ export const desserts = [
         rating: '4',
         bestFlavor:{
             flavor: 'Huckleberry',
-            why:'I dont make the rules its just the truth.'
+            why:'I do not make the rules its just the truth.'
         }  
     },
     {
@@ -28,7 +28,7 @@ export const desserts = [
         rating: '5',
         bestFlavor:{
             flavor: 'Huckleberry',
-            why:'Once again I dont make the rules its just the truth.'
+            why:'Once again I do not make the rules its just the truth.'
         }  
     },
 
