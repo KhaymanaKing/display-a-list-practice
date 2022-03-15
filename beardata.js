@@ -1,4 +1,5 @@
-const bears = [
+
+export const bears = [
     {
         type: 'Black Bear',
         color: 'Black',
