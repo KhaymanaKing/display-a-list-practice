@@ -13,10 +13,9 @@ for (let bear of bears){
     bearsEl.append(bearEl);
 }
 
-const candyEl = document.getElementById(candies);
-for (let candy of candies)
-{
-    const candy = renderCandyEl(candy);
+const candiesEl = document.getElementById(candies);
+for (let candyEl of candies) {
+    const candyEl = renderCandyEl(candy);
 
-    candyEl.append(candyEl);
+    candyiesEl.append(candy);
 }
