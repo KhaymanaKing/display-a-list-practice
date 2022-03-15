@@ -7,6 +7,9 @@ import { renderCandyEl } from './render-candy.js';
 import { movies } from './array-movies.js';
 import { renderMovieEl } from './render-movies.js';
 
+import { desserts } from './array-desserts.js';
+import { renderDessertsEl } from './render-desserts.js';
+
 const bearsEl = document.querySelector('.bear');
 
 
@@ -32,4 +35,11 @@ for (let movie of movies) {
     const movieEl = renderMovieEl(movie);
     console.log(movieEl);
     moviesEl.append(movieEl);
+}
+
+const dessertsEl = document.querySelector('.desserts');
+
+for (let dessert of desserts) {
+    const dessertEl = renderDessertsEl(dessert);
+    dessertsEl.append(dessertEl);
 }

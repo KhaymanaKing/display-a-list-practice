@@ -7,13 +7,13 @@
 export function renderDessertsEl(desserts){
     const dessertsEl = document.createElement('div');
     const typeEl = document.createElement('h1');
-    const flavorEl = document.createElement('span');
-
+    const bestEl = document.createElement('span');
+    
     dessertsEl.classList.add('desserts');
 
     typeEl.textContent = desserts.type;
-    flavorEl.textContent = `Best Flavor is ${flavorEl.flavor}. Why? ${flavorEl.why}`;
+    bestEl.textContent = `Best flavor is ${desserts.best.flavor}. Why? ${desserts.best.why}`;
 
-    dessertsEl.append(typeEl, flavorEl);
+    dessertsEl.append(typeEl, bestEl);
     return dessertsEl;
 }

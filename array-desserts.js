@@ -1,32 +1,32 @@
 export const desserts = [
     {
-        type: 'ice cream',
+        type: 'Ice Cream',
         rating: '4',
-        bestFlavor:{
+        best:{
             flavor: 'Huckleberry',
-            why:'I do not make the rules its just the truth.'
+            why: 'I do not make the rules. its just the truth.'
         }  
     },
     {
-        type: 'cake',
+        type: 'Cake',
         rating: '3',
-        bestFlavor:{
+        best:{
             flavor: 'Lemon',
             why:'Tart and sweet'
         }  
     },
     {
-        type: 'cupcakes',
+        type: 'Cupcakes',
         rating: '2',
-        bestFlavor:{
+        best:{
             flavor: 'chocolate',
             why:'If you go smaller might as well have chocolate'
         }  
     },
     {
-        type: 'pie',
+        type: 'Pie',
         rating: '5',
-        bestFlavor:{
+        best:{
             flavor: 'Huckleberry',
             why:'Once again I do not make the rules its just the truth.'
         }  
