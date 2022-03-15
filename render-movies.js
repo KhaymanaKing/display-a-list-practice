@@ -29,5 +29,5 @@ export function rendermovieEl(movie) {
 
     }
     movieEl.append(titleEl, releaseEl, directorEl, castEl);
-    return movieEl
+    return movieEl;
 }
