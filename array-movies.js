@@ -1,4 +1,4 @@
-export const horrorMovies = [
+export const movies = [
     {
         title: 'Hereditary',
         release: 'January 21, 2018',
