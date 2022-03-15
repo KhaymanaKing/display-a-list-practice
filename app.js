@@ -1,8 +1,22 @@
-// import functions and grab DOM elements
+import { bears } from './beardata.js';
+import { renderBearsEl } from './render-bears.js';
 
-// initialize global state
+import { candies } from './array-candy.js';
+import { renderCandyEl } from './render-candy.js';
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+const bearsEl = document.getElementById(bears);
+for (let bear of bears){
+    const bearEl = renderBearsEl(bear);
+
+    
+    
+    bearsEl.append(bearEl);
+}
+
+const candyEl = document.getElementById(candies);
+for (let candy of candies)
+{
+    const candy = renderCandyEl(candy);
+
+    candyEl.append(candyEl);
+}

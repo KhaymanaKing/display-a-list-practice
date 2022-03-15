@@ -24,3 +24,9 @@ There are only so many things we do in an app.
     4.  Then, in app.js import your array and render function and grab a container element from the DOM.
     5.  Loops through your array, and for each object, render and appends a styled candy element to the container element you grabbed from the DOM.
     6.  Note: do this process **one array at a time**. Do not write 4 arrays, then 4 render functions, etc. Please work through the first array, then the first render function, then the first display function.
+
+one list should be a list of strings,
+one should be a list of simple objects,
+one should be a list of objects where one property is a nested object,
+and one should be a list of objects where one property is an array.
+A a stretch goal, feel free to make all of them arrays of deep objects (with array and nested object properties).
