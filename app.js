@@ -5,7 +5,7 @@ import { candies } from './array-candy.js';
 import { renderCandyEl } from './render-candy.js';
 
 import { movies } from './array-movies.js';
-import { rendermovieEl } from './render-movies.js';
+import { renderMovieEl } from './render-movies.js';
 
 const bearsEl = document.querySelector('.bear');
 
@@ -28,7 +28,8 @@ for (let candy of candies) {
 
 const moviesEl = document.querySelector('.movies');
 
-for (let movie of movies) P{
-    const movieEl = rendermovieEl(movie);
-    moviesEl.append(movieEl)
+for (let movie of movies) {
+    const movieEl = renderMovieEl(movie);
+    console.log(movieEl);
+    moviesEl.append(movieEl);
 }

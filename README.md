@@ -14,7 +14,7 @@ There are only so many things we do in an app.
     <!-- *   one list should be a list of string, -->
     <!-- *   one should be a list of simple objects, -->
     *   one should be a list of objects where one property is a nested object,
-    *   and one should be a list of objects where one property is an array.
+    <!-- *   and one should be a list of objects where one property is an array. -->
     *   A a stretch goal, feel free to make all of them arrays of deep objects 
     
     
